@@ -10,3 +10,9 @@ This repository contains:
 
 ## Graph Files
 
+
+
+## Graph_code
+The graph creation process is divided into a few separate steps.
+  1. Getting graph nodes with clustering (Clustering.py). An example for running this step is given in clustering_batch.sh/ 
+  2. 
