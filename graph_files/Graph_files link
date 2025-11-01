@@ -1,0 +1,10 @@
+The graph files are located in https://www.dropbox.com/home/Muse%20graph%20files.
+For any issues and questions please contact nir.sweed@mail.huji.ac.il
+
+Short explanation:
+The full graph is given inf full_graph_node_to_neighbors. The cirdctory contains a few different dictionaries that describe other properties of the graph that might be helpful.
+
+1. Full_graph_node_to_neighbor is a python dictionary. Keys are the graph nodes, values are the list of neighbors (more abstract) nodes for each node.
+2. label_to_cluster_list is a python dictionary. Keys are id of a loose cluster, and values are the list of nodes (=clustered purpose tags) in each loose cluster.
+3. node_id_to_type is a python dictionary. Keys are node ids, and values are the type of nodes (e.g. LLM or Verb). If the node is not an LLM or verb-based node, it will not exist in this dictionary.
+4. label_to_candidate is a python dictionary. The keys are id of a loose cluster, and values are the candidate nodes selected for each cluster.
